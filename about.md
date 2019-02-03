@@ -13,6 +13,6 @@ permalink: /about/
  - Agile, Scrum and Test Driven projects
  - Retail, Banking and Litigation domain knowledge
 
-<p>gsahadevan@outlook.com | +91 819-740-1065</p>
+<p>gsahadevan@outlook.com</p>
 
 <p>My resume can be found here.</p>

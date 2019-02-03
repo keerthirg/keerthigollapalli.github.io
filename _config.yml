@@ -21,9 +21,9 @@ social:
   - icon: fab fa-stack-overflow
     link: "https://stackoverflow.com/users/6407851/gauthaman-sahadevan"
   - icon: fab fa-hackerrank
-    link: "https://hackerrank.com/gsahadevan"
+    link: "https://www.hackerrank.com/gsahadevan?hr_r=1"
   - icon: fa fa-h-square
-    link: "https://hackerearth.com/@gsahadevan"
+    link: "https://www.hackerearth.com/@gsahadevan"
 
 plugins:
   - jekyll-paginate
