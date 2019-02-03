@@ -1,1 +1,31 @@
-theme: jekyll-theme-cayman
+author: Gauthaman Sahadevan
+jobtitle: Senior Java Developer
+avatar_url: /static/images/avatar.jpg
+github: https://gsahadevan.github.io/
+
+urls:
+  - text: Home
+    url: /
+  - text: About Me
+    url: /about/
+  - text: Blog
+    url: /blog/
+  - text: Projects
+    url: /projects/
+  - text: XML Feed
+    url: /feed.xml
+
+social:
+  - icon: fa fa-linkedin
+    link: "https://www.linkedin.com/in/gauthamansahadevan/"
+  - icon: fa fa-github
+    link: "https://github.com/gsahadevan"
+  - icon: fa fa-stack-overflow
+    link: "https://stackoverflow.com/users/6407851/gauthaman-sahadevan"
+  - icon: fab fa-hackerrank
+    link: "https://hackerrank.com/gsahadevan"
+  - icon: fa fa-h-square
+    link: "https://hackerearth.com/@gsahadevan"
+
+gems:
+  - jekyll-paginate
