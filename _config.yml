@@ -1,5 +1,5 @@
 author: Gauthaman Sahadevan
-jobtitle: Senior Java Developer
+jobtitle: Senior Java Developer | Full Stack Developer
 avatar_url: /static/images/avatar.jpg
 github: https://gsahadevan.github.io/
 
@@ -12,20 +12,18 @@ urls:
     url: /blog/
   - text: Projects
     url: /projects/
-  - text: XML Feed
-    url: /feed.xml
 
 social:
-  - icon: fa fa-linkedin
+  - icon: fab fa-linkedin
     link: "https://www.linkedin.com/in/gauthamansahadevan/"
-  - icon: fa fa-github
+  - icon: fab fa-github
     link: "https://github.com/gsahadevan"
-  - icon: fa fa-stack-overflow
+  - icon: fab fa-stack-overflow
     link: "https://stackoverflow.com/users/6407851/gauthaman-sahadevan"
   - icon: fab fa-hackerrank
     link: "https://hackerrank.com/gsahadevan"
   - icon: fa fa-h-square
     link: "https://hackerearth.com/@gsahadevan"
 
-gems:
+plugins:
   - jekyll-paginate
