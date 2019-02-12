@@ -7,3 +7,7 @@
 .options_container {
     display: block;
 }
+.f_container {
+    text-align: justify;
+    text-justify: inter-word;
+}

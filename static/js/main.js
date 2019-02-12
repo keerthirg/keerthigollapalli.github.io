@@ -23,7 +23,7 @@ function loadFile() {
             // console.log(obj.solution);
             ctr++;
             htmlText += '<br>';
-            htmlText += '<fieldset>';
+            htmlText += '<fieldset class="f_container">';
             htmlText += '<legend> Question ' + ctr + ' of ' + jsonObj.length + ' </legend>';
             htmlText += '<p class="question">' + obj.question + '</p>';
             var loopVar = 0;
@@ -41,13 +41,13 @@ function loadFile() {
                 var opt_text = option.substring(2);
                 if (obj.solution.includes(option.substring(0, 2).trim())) {
                     htmlText += '<div class="options_container">';
-                    htmlText += '<input type="radio" id="' + ctr + '_' + loopVar + '" name="' + ctr + '">';
-                    htmlText += '<div class="' + ctr + '" style="display: inline;"><label class="option"> ' + opt_text + '</label></div>';
+                    htmlText += '<div class="div_' + ctr + '" id="' + ctr + '_crt' + '"><label class="option">';
+                    htmlText += '<input type="radio" id="' + ctr + '_' + loopVar + '" name="' + ctr + '"> ' + opt_text + '</label></div>';
                     htmlText += '</div>';
                 } else {
                     htmlText += '<div class="options_container">';
-                    htmlText += '<input type="radio" id="' + ctr + '_' + loopVar + '" name="' + ctr + '"><label class="option"> ' + opt_text + '</label>';
-                    htmlText += '<div class="' + ctr + '" style="display: none;"></div>';
+                    htmlText += '<div class="div_' + ctr + '" id="opt_' + ctr + '_' + loopVar + '"><label class="option">';
+                    htmlText += '<input type="radio" id="' + ctr + '_' + loopVar + '" name="' + ctr + '"> ' + opt_text + '</label></div>';
                     htmlText += '</div>';
                 }
             })
@@ -58,9 +58,13 @@ function loadFile() {
         $(document).ready(function() {
             $('input[type=radio]').on('change', function(event) {
                 var test = event.target.id.split("_", 2);
-                $("." + test[0]).css("color", "green");
-                $("." + test[0]).css("border", "solid 2px");
-                $("." + test[0]).css("font-weight", "bold");
+                $(".div_" + test[0]).css("border", "0px");
+                if ($("#opt_" + event.target.id)) {
+                    $("#opt_" + event.target.id).css("color", "red");
+                    $("#opt_" + event.target.id).css("border", "solid 2px");
+                }
+                $("#" + test[0] + "_crt").css("color", "green");
+                $("#" + test[0] + "_crt").css("border", "solid 2px");
             });
         });
     });
