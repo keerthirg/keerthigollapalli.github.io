@@ -41,12 +41,12 @@ function loadFile() {
                 var opt_text = option.substring(2);
                 if (obj.solution.includes(option.substring(0, 2).trim())) {
                     htmlText += '<div class="options_container">';
-                    htmlText += '<br><input type="radio" id="' + ctr + '_' + loopVar + '" name="' + ctr + '">';
+                    htmlText += '<input type="radio" id="' + ctr + '_' + loopVar + '" name="' + ctr + '">';
                     htmlText += '<div class="' + ctr + '" style="display: inline;"><label class="option"> ' + opt_text + '</label></div>';
                     htmlText += '</div>';
                 } else {
                     htmlText += '<div class="options_container">';
-                    htmlText += '<br><input type="radio" id="' + ctr + '_' + loopVar + '" name="' + ctr + '"><label class="option"> ' + opt_text + '</label>';
+                    htmlText += '<input type="radio" id="' + ctr + '_' + loopVar + '" name="' + ctr + '"><label class="option"> ' + opt_text + '</label>';
                     htmlText += '<div class="' + ctr + '" style="display: none;"></div>';
                     htmlText += '</div>';
                 }
