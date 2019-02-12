@@ -1,262 +1,604 @@
 [{
-    "question": "Who has to keep books?",
-    "options": [
-        "A Every merchant.",
-        "B Merchants, who are below the criteria of §241a HGB.",
-        "C Only companies, which exceed the criteria of §241a HGB.",
-        "D Every merchant except individual merchants, who are below the size criteria of § 241a HGB"
-    ],
-    "solution": ["D"]
+  "question": "Which field of accounting is assigned to external accounting?",
+  "options": [
+    "A Statistics and comparative methods",
+    "B Cost and performance accounting",
+    "C Financial accounting",
+    "D Planning / budgeting"
+  ],
+  "solution": ["C"]
 }, {
-    "question": "Artist Picasso, who is not registered in the commercial register does not have to keep books because he...",
-    "options": [
-        "A is a “merchant by definition”.",
-        "B is below the size criteria of §241a HGB.",
-        "C is a freelance professional.",
-        "D runs a company but no commercial business after all."
-    ],
-    "solution": ["C"]
+  "question": "External accounting...",
+  "options": [
+    "A is customizable for each company",
+    "B is designed by works council",
+    "C is determined by chartered accountants",
+    "D is subject to legal rules"
+  ],
+  "solution": ["D"]
 }, {
-    "question": "Who has to keep books?",
-    "options": [
-        "A Skittels club „Gut Holz”",
-        "B Graveyard „Zur letzten Ruhe”",
-        "C Chartered accountant Bernd Grottel",
-        "D Tree farm „Deutsche Eiche” (registered in commercial register)"
-    ],
-    "solution": ["D"]
+  "question": "Who is not an addressee of the financial statement?",
+  "options": [
+    "A Owners",
+    "B Creditors",
+    "C Company management",
+    "D Auditor"
+  ],
+  "solution": ["D"]
 }, {
-    "question": "Who has to keep books?",
-    "options": [
-        "A Lawyer Ludwig Sorgenfrei",
-        "B „Arge”Landverschönerung",
-        "C Fast-treck KGaA",
-        "D GbR Wörmer"
-    ],
-    "solution": ["C"]
+  "question": "What is not a function of external accounting?",
+  "options": [
+    "A Representing company’s financial situation to its stakeholders",
+    "B Planning, monitoring, and controlling of a company‘s operations",
+    "C Financial Reporting/Accounting pursuant to legal rules",
+    "D Preparation of financial statements"
+  ],
+  "solution": ["B"]
 }, {
-    "question": "Who does not have to keep books?",
-    "options": [
-        "A Geldgierbank SchleideneG",
-        "B Whiskey-distillery Resi Schluckspecht",
-        "C Eifel AG",
-        "D Dentist Egon Tutnichtweh"
-    ],
-    "solution": ["D"]
+  "question": "Operating result is formed by balancing ...",
+  "options": [
+    "A Performance and costs",
+    "B Income and Expense",
+    "C Receipt and Expenditure",
+    "D Cash-inflow and cash-outflow"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "Who does not have keep books?",
-    "options": [
-        "A Anton Stiller as a silent partner",
-        "B Hotel Cosy Rest (registered in commercial register)",
-        "C Carpe Diem GmbH",
-        "D Schnöller OHG (registered in commercial register)"
-    ],
-    "solution": ["A"]
+  "question": "Balancing of receipts and expenditures results in ...",
+  "options": [
+    "A Operating result",
+    "B Net income",
+    "C Financial balance",
+    "D Payment balance"
+  ],
+  "solution": ["C"]
 }, {
-    "question": "Who has to keep books below?",
-    "options": [
-        "A A freelance architect employs 10 architects as well as 15 technical drawers. Annual revenue amounts to approximately 2,5 Mio. €.",
-        "B A kiosk owner realizes an annual revenue of 120.000 € and an annual profit of 20.000 €",
-        "C Another kiosk owner realizes an annual revenue of 80.000 € and an annual profit of 9.000 €. His kiosk is registered in commercial register.",
-        "D A carpenter employs 50 employees. Fixed assets amount to 500.000 €, annual revenue amounts to 3,5 Mio. €"
-    ],
-    "solution": ["D"]
+  "question": "Select the correct definition for receipts!",
+  "options": [
+    "A Monetary value of a company‘s delivered economic goods within a period",
+    "B Cash and cash equivalents that flow directly to the company within a period",
+    "C Monetarily assessed increase in value due to performance of services",
+    "D Increase in value within a period (affecting net income)"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "Who has to keep books below?<br>A) A freelance architect employs 10 architects as well as 15 technical drawers. Annual revenue amounts to approximately 2,5 Mio. €.<br>B) A kiosk owner realizes an annual revenue of 120.000 € and an annual profit of 20.000 €<br>C) Another kiosk owner realizes an annual revenue of 80.000 € and an annual profit of 9.000 €. His kiosk is registered in commercial register.<br>D) A carpenter employs 50 employees. Fixed assets amount to 500.000 €, annual revenue amounts to 3,5 Mio. €<br><br>For whom of the persons mentioned above does § 241a HGB apply, assuming the numbers apply for two consecutive financial years?",
-    "options": [
-        "A Only A) and B)",
-        "B Only B)",
-        "C Only B) and C)",
-        "D Only C)"
-    ],
-    "solution": ["C"]
+  "question": "Select the correct definition for costs!",
+  "options": [
+    "A Consumption respectively usage of economic goods (affecting net income)",
+    "B Monetarily assessed consumption of goods and services due to the performance of services",
+    "C Monetary value of a company’s acquired economic goods within a period.",
+    "D Cash and cash equivalents that are spent by the company within a period"
+  ],
+  "solution": ["B"]
 }, {
-    "question": "Businessman Mr. Schneider has operated his commercial business for a long time. In the past years he realized annual revenues and annual profits as follows :<br>Year 10:  --------- Year 11:  --------- Year 12:  --------- Year 13:<br>Profit    ----------- Profit    ----------- Profit    ----------- Profit<br>58.000 €  --------- 61.000 € --------- 60.000 €  --------- 58.000 €<br>Revenue   ---------- Revenue   ---------- Revenue   ---------- Revenue<br>592.000 € -------- 598.000 € -------- 600.000 € -------- 596.000 €<br>Mr. Schneider wishes to quit bookkeeping in terms of commercial law as soon as possible. Which is the earliest date possible?",
-    "options": [
-        "A Year 11",
-        "B Year 12",
-        "C Year 13",
-        "D Year 14"
-    ],
-    "solution": ["D"]
+  "question": "“Monetary value of a company’s acquired economic goods within a period.” is the correct definition for...",
+  "options": [
+    "A Expenditure",
+    "B Receipt",
+    "C Expense",
+    "D Revenue"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "Small business owner Mr. Schulze has been exempted from the obligation to keep books, since he has come below the criteria of §241a HGB until now. In year 10 he has realized a fiscal profit of 58.000 € and fiscal revenues of 585.000 €. If he was subject to the duty of keeping books, he still would have to take receivables totaling 32.000 € into account. This however would lead to higher revenues. According to net fiscal income method receivables are not taken into account. The receivables contain a share in profits of 10.000 €. How to proceed further in year 11?",
-    "options": [
-        "A Mr. Schulze does not exceed the limitations of § 241a HGB and therefore does not have to keep books.",
-        "B Mr. Schulze already should have kept books in year 10.",
-        "C Mr. Schulze has to keep books starting in year 11.",
-        "D Mr. Schulze has to keep books starting in year 12, since criteria of §241a HGB have to be exceeded in two consecutive years."
-    ],
-    "solution": ["C"]
+  "question": "“Cash and cash equivalents that are spent by the company within a period.” is the correct definition for..",
+  "options": [
+    "A Cash-outflow",
+    "B Cash-inflow",
+    "C Receipt",
+    "D Income"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "Who needs to be appointed for a company being able to be legally represented?",
-    "options": [
-        "A Tax advisor",
-        "B Managingdirector",
-        "C Public accountant",
-        "D Owner"
-    ],
-    "solution": ["B"]
+  "question": "The transaction “Payment of machinery, that already has been delivered in the prior period.“ is a(n)...",
+  "options": [
+    "A Cash-outflow",
+    "B Cash-outflow and expenditure",
+    "C Receipt",
+    "D Expenditure"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "Who is entitled to appoint the managment?",
-    "options": [
-        "A Owners",
-        "B Employees",
-        "C Creditors",
-        "D Suppliers"
-    ],
-    "solution": ["A"]
+  "question": "The transaction „Payment of machinery, that is going to be delivered in the subsequent period.“ is a(n)...",
+  "options": [
+    "A Cash-outflow",
+    "B Cash-outflow and expenditure",
+    "C Receipt",
+    "D Expenditure"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "What do you call the account of a company used to process its monetary transactions ?",
-    "options": [
-        "A Investment account",
-        "B Private account",
-        "C Liability account",
-        "D Commercial account"
-    ],
-    "solution": ["D"]
+  "question": "The transaction “Purchase of goods for the amount of 600 € on credit.“ is a(n)...",
+  "options": [
+    "A Cash-outflow",
+    "B Cash-outflow and expenditure",
+    "C Receipt",
+    "D Expenditure"
+  ],
+  "solution": ["D"]
 }, {
-    "question": "What‘s the technical term for all the debts of a company?",
-    "options": [
-        "A Assets",
-        "B Provisions",
-        "C Liabilities",
-        "D Credits"
-    ],
-    "solution": ["C"]
+  "question": "The transaction “Purchase of raw materials via cash payment“ is a(n)",
+  "options": [
+    "A Cash-outflow",
+    "B Cash-outflow and expenditure",
+    "C Receipt",
+    "D Cash-inflow and receipts"
+  ],
+  "solution": ["B"]
 }, {
-    "question": "The side of the balance sheet, which includes equity and debt is called ...",
-    "options": [
-        "A Asset side",
-        "B Capital side",
-        "C Liabilities",
-        "D Debt side"
-    ],
-    "solution": ["C"]
+  "question": "The transaction “Purchase of wooden planks for 200 € on credit.“ is a(n)...",
+  "options": [
+    "A Expenditure",
+    "B Expenditure and Expense",
+    "C Expense",
+    "D Cash-outflow, Expenditure and Expense"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "The side of the balance sheet, which includes the company's assets is called ...",
-    "options": [
-        "A Assets side",
-        "B Capital side",
-        "C Liabilities side",
-        "D Debt side"
-    ],
-    "solution": ["A"]
+  "question": "The transaction “Purchase of wooden planks for 200 € on credit, which are consumed in the next but one period.” is a(n)...",
+  "options": [
+    "A Expenditure",
+    "B Expenditure and Expense",
+    "C Expense",
+    "D Cash-outflow, Expenditure and Expense"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "Who of the below persons is not a creditor?",
-    "options": [
-        "A A supplier from whom the company has bought goods on credit.",
-        "B A Bank which has granted the company a bank loan.",
-        "C Customer whom the company has sold goods on credit.",
-        "D An owner who has granted the company a loan."
-    ],
-    "solution": ["C"]
+  "question": "The transaction “Purchase of wooden planks for 200 € on credit, which are consumed immediately.” is a(n)..",
+  "options": [
+    "A Expenditure",
+    "B Expenditure and expense",
+    "C Expense",
+    "D Cash-outflow, expenditure and expense"
+  ],
+  "solution": ["B"]
 }, {
-    "question": "If a person goes to the commercial trade office and registers a company, this company has ...",
-    "options": [
-        "A Liabilities",
-        "B Debt",
-        "C Equity",
-        "D No capital"
-    ],
-    "solution": ["D"]
+  "question": "The transaction “Scheduled straight-line depreciation of production machinery.“ is a(n)...",
+  "options": [
+    "A Expenditure",
+    "B Expenditure and expense",
+    "C Expense",
+    "D Cash-outflow, expenditure and expense"
+  ],
+  "solution": ["C"]
 }, {
-    "question": "What do you call persons besides the owners of a company who provide capital to this company?",
-    "options": [
-        "A Sponsors",
-        "B Creditors",
-        "C Debtors",
-        "D Donors"
-    ],
-    "solution": ["B"]
+  "question": "The transaction “Non-scheduled depreciation of production machinery.” is a(n)...",
+  "options": [
+    "A Expenditure",
+    "B Expenditure and Expense",
+    "C Expense",
+    "D Cash-outflow, expenditure and expense"
+  ],
+  "solution": ["C"]
 }, {
-    "question": "If a supplier grants a suppliers credit to a customer for a certain period of time this period of time granted is called:",
-    "options": [
-        "A Credit line",
-        "B Target agreement",
-        "C Time of payment",
-        "D Free kick"
-    ],
-    "solution": ["C"]
+  "question": "The transaction “Formation of accruals.” is a(n)...",
+  "options": [
+    "A Expenditure",
+    "B Expenditure and expense",
+    "C Expense",
+    "D Cash-outflow, Expenditure and expense"
+  ],
+  "solution": ["C"]
 }, {
-    "question": "If a bank grants a customer a bank loan over a certain period of time, this is called a ...",
-    "options": [
-        "A Credit line",
-        "B Target agreement",
-        "C Time of payment",
-        "D Free kick"
-    ],
-    "solution": ["A"]
+  "question": "The transaction Sale of goods for 700 € on credit is a(n)...",
+  "options": [
+    "A Receipt",
+    "B Expenditure",
+    "C Profit",
+    "D Expense"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "What is the technical term when a company purchases assets in order to work with it ?",
-    "options": [
-        "A Depreciation",
-        "B Valuation",
-        "C Investment",
-        "D Financial statements"
-    ],
-    "solution": ["C"]
+  "question": "The transaction “Decrease in value of a company car.” is a(n)...",
+  "options": [
+    "A Expenditure",
+    "B Expenditure an Expense",
+    "C Expense",
+    "D Cash-outflow, expenditure and expense"
+  ],
+  "solution": ["C"]
 }, {
-    "question": "How to call capital, provided by the creditors of a company?",
-    "options": [
-        "A Equity",
-        "B Risk capital",
-        "C Loss capital",
-        "D Debt"
-    ],
-    "solution": ["D"]
+  "question": "The transaction “Rental payment for a business office via bank transfer.” is a(n)...",
+  "options": [
+    "A Expenditure",
+    "B Cash-outflow and Expense",
+    "C Expense",
+    "D Cash-outflow, expenditure and expense"
+  ],
+  "solution": ["D"]
 }, {
-    "question": "How to call a transaction in which the owners of a company provide capital to their company?",
-    "options": [
-        "A Capital investment",
-        "B Transfer",
-        "C Capital withdrawal",
-        "D Credit"
-    ],
-    "solution": ["A"]
+  "question": "The transaction “Purchase of production machinery for the price of 100.000 €.” is a(n)...",
+  "options": [
+    "A Expenditure",
+    "B Expenditure and expense",
+    "C Expense",
+    "D Cash-outflow, expenditure and expense"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "Money invested by owners in their company is called ...",
-    "options": [
-        "A Losscapital",
-        "B Credit",
-        "C Equity capital",
-        "D Asset deposit"
-    ],
-    "solution": ["C"]
+  "question": "The transaction “Granting a bank loan in the amount of 1.111 €.” is a(n)...",
+  "options": [
+    "A Cash-outflow",
+    "B Receipt",
+    "C Cash-inflow",
+    "D Receipt and cash-inflow"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "Someone providing capital to a company without being its owner is referred to as:",
-    "options": [
-        "A Firm",
-        "B User",
-        "C Debtor",
-        "D Creditor"
-    ],
-    "solution": ["D"]
+  "question": "The transaction “Repayment of a loan in the amount of 50.000 €.” is a(n)...",
+  "options": [
+    "A Cash-outflow",
+    "B Cash-outflow and expenditure",
+    "C Receipt",
+    "D Expenditure"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "What do you call the capital provided by owners to their company?",
-    "options": [
-        "A Equity capital",
-        "B Risk capital",
-        "C Loss capital",
-        "D Debt"
-    ],
-    "solution": ["A"]
+  "question": "The transaction “Cash sale of finished goods for 300 €.” is a(n)...",
+  "options": [
+    "A Cash-inflow",
+    "B Cash-inflow and Receipt",
+    "C Earning",
+    "D Expenditure"
+  ],
+  "solution": ["B"]
 }, {
-    "question": "Select the wrong answer:",
-    "options": [
-        "A A positive final result (net income) increases equity.",
-        "B A negative final result (net loss) decreases equity.",
-        "C A negative final result increases debt.",
-        "D The final result has no influence on debt."
-    ],
-    "solution": ["C"]
+  "question": "The transaction “Sale of tangible assets for its book value of 5.000 €.” is a(n)...",
+  "options": [
+    "A Receipt",
+    "B Expenditure",
+    "C Income",
+    "D Expense"
+  ],
+  "solution": ["A"]
 }, {
-    "question": "Select the correct answer:",
-    "options": [
-        "A Equity in 02 is the sum of equity of 01 and net income of 01.",
-        "B Equity in 02 is the difference of equity of 01 and net income of 01.",
-        "C Equity in 02 is the sum of equity of 00 and net income of 01.",
-        "D Equity in 01 solely consists of net income of 00."
-    ],
-    "solution": ["A"]
+  "question": "The transaction “Sale of finished goods on credit for 600 €.” is a(n)...",
+  "options": [
+    "A Cash-inflow",
+    "B Cash-inflow and earning",
+    "C Earning",
+    "D Expenditure"
+  ],
+  "solution": ["C"]
+}, {
+  "question": "The transaction „ Cash sale of finished goods for 600 €.” Is a(n)...",
+  "options": [
+    "A Cash-inflow",
+    "B Cash-outflow",
+    "C Expenditure",
+    "D None of the answers above is correct."
+  ],
+  "solution": ["A"]
+}, {
+  "question": "The transaction “Increase in value of several tangible assets by 100 €.” is a(n)...",
+  "options": [
+    "A Earning",
+    "B Earning and income",
+    "C Income",
+    "D Expense"
+  ],
+  "solution": ["C"]
+}, {
+  "question": "The transaction “A customer’s cash payment for services in the amount of 6.000 €.” is a(n)...",
+  "options": [
+    "A Earning",
+    "B Earning and income",
+    "C Income",
+    "D Cash-inflow, earning and income"
+  ],
+  "solution": ["D"]
+}, {
+  "question": "The transaction „A loan granted to a fellow company is being repaid.“ is a(n)...",
+  "options": [
+    "A Cash-inflow",
+    "B Cash-inflow and earning",
+    "C Earning",
+    "D Expenditure"
+  ],
+  "solution": ["A"]
+}, {
+  "question": "The transaction “Taking a cash loan (e.g. bank loan) in the amount of 95.000 €.” is a(n)...",
+  "options": [
+    "A Cash-inflow",
+    "B Cash-outflow",
+    "C Earning",
+    "D Expenditure"
+  ],
+  "solution": ["A"]
+}, {
+  "question": "What of the following applies for the national German commercial law?",
+  "options": [
+    "A just the HGB",
+    "B the HGB and GoB",
+    "C the HGB, GoB and IFRS",
+    "D the HGB, GoB, IFRS and US-GAAP"
+  ],
+  "solution": ["B"]
+}, {
+  "question": "Which of the following accounting rules is not legally defined?",
+  "options": [
+    "A HGB",
+    "B GoB",
+    "C IFRS",
+    "D US-GAAP"
+  ],
+  "solution": ["B"]
+}, {
+  "question": "If legal rules of the Stock Corporation Act (AktG) for a stock company differ from the HGB, then ...",
+  "options": [
+    "A the rules of the HGB prevail.",
+    "B the rules of the IFRS prevail.",
+    "C it needs to be taken into consideration critically, which accounting rules are chosen.",
+    "D the rules of the AktG prevail."
+  ],
+  "solution": ["D"]
+}, {
+  "question": "Are there any additional rules for merchants and commercial partnerships that are required additionally besides the HGB?",
+  "options": [
+    "A Yes, the AktG and - perhaps – branch-specific rules.",
+    "B Yes, the GmbHG and - perhaps – branch-specific rules.",
+    "C Yes, PublG and - perhaps – branch-specific rules.",
+    "D Branch-specific rules perhaps."
+  ],
+  "solution": ["C"]
+}, {
+  "question": "The not capital market-oriented Langsam OHG that does not have a subsidiary ...",
+  "options": [
+    "A does not need to prepare an individual financial statement.",
+    "B needs to prepare an individual financial statement.",
+    "C may prepare a consolidated financial statement to improve their image.",
+    "D has to prepare an individual financial statement as well as a consolidated financial statement."
+  ],
+  "solution": ["B"]
+}, {
+  "question": "The not capital market-oriented Schnöller OHG based in Germany with subsidiaries at home and abroad has had 150 employees and revenues of about 5 Million € over the last 3 years each...",
+  "options": [
+    "A needs to prepare an individual financial statement applying HGB.",
+    "B needs to prepare an individual financial statement applying IFRS.",
+    "C is not allowed to prepare a consolidated financial statement, because the Schnöller OHG does not meet the exemptions contained in § 293 HGB.",
+    "D needs to prepare an individual as well as a consolidated financial statement applying HGB."
+  ],
+  "solution": ["A"]
+}, {
+  "question": "The capital market-oriented Fast OHG that is based in Germany with subsidiaries at home and abroad has had 150 employees and revenues of about 5 Million € over the last 3 years each...",
+  "options": [
+    "A just needs to prepare an individual financial statement.",
+    "B does not need to prepare a consolidated financial statement since the Fast OHG does not meet the exemptions contained § 293 HGB.",
+    "C needs to prepare an individual financial statement and may prepare a consolidated financial statement to improve their image.",
+    "D needs to prepare an individual financial statement applying HGB as well as a consolidated financial statement applying IFRS."
+  ],
+  "solution": ["D"]
+}, {
+  "question": "The not capital market-oriented Slow AG based in Germany with subsidiaries at home and abroad has had 150 employees and revenues of about 50 Million € over the last 3 years each...",
+  "options": [
+    "A needs to prepare an individual financial statement applying HGB, but no consolidated financial statement.",
+    "B needs to prepare an individual financial statement applying HGB and a consolidated financial statement.",
+    "C needs to prepare an individual financial statement applying HGB and a consolidated financial statement applying IFRS.",
+    "D needs to prepare an individual financial statement applying HGB and a consolidated financial statement applying HGB or IFRS."
+  ],
+  "solution": ["D"]
+}, {
+  "question": "The capital market-oriented Schnöllerle AG that is based in Germany with subsidiaries abroad only ...",
+  "options": [
+    "A needs to prepare an individual financial statement applying HGB and a consolidated financial statement applying IFRS.",
+    "B needs to prepare an individual financial statement applying HGB and a consolidated financial statement applying HGB or IFRS.",
+    "C needs to prepare an individual financial statement applying HGB and a consolidated financial statement applying IFRS.",
+    "D needs to prepare an individual financial statement applying HGB and a consolidated financial statement applying HGB and IFRS."
+  ],
+  "solution": ["C"]
+}, {
+  "question": "To an individual entrepreneur the following commercial rules applies ...",
+  "options": [
+    "A only §§ 264 to 289f HGB.",
+    "B only §§ 238 to 263 HGB.",
+    "C only §§ 238 bis 289f HGB.",
+    "D §§ 238 bis 335 HGB."
+  ],
+  "solution": ["B"]
+}, {
+  "question": "To an AG with subsidiaries the following commercial rules apply ...",
+  "options": [
+    "A only §§ 264 to 289f HGB.",
+    "B only §§ 238 to 263 HGB.",
+    "C only §§ 238 to 289f HGB.",
+    "D §§ 238 to 335 HGB."
+  ],
+  "solution": ["C"]
+}, {
+  "question": "To an OHG the following commercial rules apply ...",
+  "options": [
+    "A only §§ 264 to 289f HGB.",
+    "B only §§ 238 to 263 HGB.",
+    "C only §§ 238 to 289f HGB.",
+    "D §§ 238 to 335 HGB."
+  ],
+  "solution": ["B"]
+}, {
+  "question": "The rules for a group ...",
+  "options": [
+    "A are specific.",
+    "B are regulated by the HGB, §§ 238 to 263.",
+    "C are regulated by the HGB, §§ 263 to 289a.",
+    "D refer to the rules that apply for all merchants and for all capital companies."
+  ],
+  "solution": ["D"]
+}, {
+  "question": "To a GmbH without any subsidiaries the following commercial rules apply ...",
+  "options": [
+    "A only §§ 264 to 289f HGB.",
+    "B only §§ 238 to 263 HGB.",
+    "C only §§ 238 to 289f HGB.",
+    "D §§ 238 to 335 HGB."
+  ],
+  "solution": ["C"]
+}, {
+  "question": "To a GmbH with a subsidiary the following commercial rules apply ...",
+  "options": [
+    "A only §§ 264 to 289f HGB.",
+    "B only §§ 238 to 263 HGB.",
+    "C only §§ 238 to 289f HGB.",
+    "D §§ 238 to 335 HGB."
+  ],
+  "solution": ["D"]
+}, {
+  "question": "To a GmbH without any subsidiaries the following commercial rules apply ...",
+  "options": [
+    "A only §§ 264 to 289f HGB.",
+    "B only §§ 238 to 263 HGB and the GmbHG.",
+    "C only §§ 238 to 289f HGB.",
+    "D only §§ 238 to 289f HGB and the GmbHG."
+  ],
+  "solution": ["D"]
+}, {
+  "question": "What simplified principle describes the accounting rules of the HGB best?",
+  "options": [
+    "A „from the general to the specific “.",
+    "B „from specific to general“.",
+    "C „from difficult to obvious“.",
+    "D The separation of all legal forms in special legal rules."
+  ],
+  "solution": ["A"]
+}, {
+  "question": "Are small commercial partnerships and individual merchants basically able to apply §§ 264 ff. HGB?",
+  "options": [
+    "A No, only §§ 238-263 HGB may (and need to) be applied.",
+    "B No, only §§ 1-263 HGB may (and need to) be applied.",
+    "C No, §§ 264 ff. HGB need to be applied. It is mandatory and not optional.",
+    "D Basically yes, but it is voluntary; questionable concerning tax accrual (§ 274 HGB)."
+  ],
+  "solution": ["D"]
+}, {
+  "question": "The Architecture-AG is ...",
+  "options": [
+    "A a merchant by definition (§ 1 HGB).",
+    "B no merchant.",
+    "C a merchant by legal form (§ 6 HGB).",
+    "D a merchant by voluntary registration (§ 2 HGB)."
+  ],
+  "solution": ["C"]
+}, {
+  "question": "The A-B-OHG, which practices extensive real estate businesses inland and abroad, is ...",
+  "options": [
+    "A a merchant by definition (§ 1 HGB).",
+    "B no merchant.",
+    "C a merchant by legal form (§ 6 HGB).",
+    "D a merchant by voluntary registration (§ 2 HGB)."
+  ],
+  "solution": ["C"]
+}, {
+  "question": "The culture-GmbH, which organizes exhibitions for unknown artists on a non-profit basis, is ...",
+  "options": [
+    "A a merchant by definition (§ 1 HGB).",
+    "B no merchant.",
+    "C a merchant by legal form (§ 6 HGB).",
+    "D a merchant by voluntary registration (§ 2 HGB)."
+  ],
+  "solution": ["C"]
+}, {
+  "question": "Otto Meier runs a small shop that opens just occasionally and which revenue is at most 10.000 € per financial year. He is ...",
+  "options": [
+    "A a merchant by definition (§ 1 HGB).",
+    "B no merchant.",
+    "C a merchant by legal form (§ 6 HGB).",
+    "D a merchant by voluntary registration (§ 2 HGB)."
+  ],
+  "solution": ["B"]
+}, {
+  "question": "Lawyer Hans Rechtslinks runs his law firm in Würzburg and generates a yearly revenue of 12.000.000 €. He is ...",
+  "options": [
+    "A a merchant by definition (§ 1 HGB).",
+    "B no merchant.",
+    "C a merchant by legal form (§ 6 HGB).",
+    "D a merchant by voluntary registration (§ 2 HGB)."
+  ],
+  "solution": ["B"]
+}, {
+  "question": "The Schnöller OHG that was founded just recently and is not registered in the commercial register so far and is (not yet) operating a commercial business, is ...",
+  "options": [
+    "A a merchant by definition (§ 1 HGB).",
+    "B no merchant.",
+    "C a merchant by legal form (§ 6 HGB).",
+    "D a merchant by voluntary registration (§ 2 HGB)."
+  ],
+  "solution": ["B"]
+}, {
+  "question": "Which principle is not an assignable framework principle of the generally accepted accounting principles?",
+  "options": [
+    "A Completeness",
+    "B Prudence",
+    "C Accuracy and Neutrality",
+    "D Transparency and Understandability"
+  ],
+  "solution": ["B"]
+}, {
+  "question": "Which principle is not an assignable accruals principles of the generally accepted accounting principles?",
+  "options": [
+    "A Imparity principle",
+    "B Realization principle",
+    "C Accruals principle",
+    "D Single-asset valuation"
+  ],
+  "solution": ["D"]
+}, {
+  "question": "Which principle is not an assignable complementary principle of the generally accepted accounting principles?",
+  "options": [
+    "A Consistency",
+    "B Prudence",
+    "C Imparity principle",
+    "D Going concern"
+  ],
+  "solution": ["C"]
+}, {
+  "question": "What is a sale of finished goods on credit for the selling company?",
+  "options": [
+    "A Cash-inflow, but no income.",
+    "B No receipt, but an income.",
+    "C Receipt, but no cash-inflow.",
+    "D None of the above is correct."
+  ],
+  "solution": ["C"]
+}, {
+  "question": "Business accounting is seperated in different fields. What is not a part of the management (internal) accounting?",
+  "options": [
+    "A Budgeting",
+    "B business accounting",
+    "C Statistics and comparative methods",
+    "D Cost- and performance accounting"
+  ],
+  "solution": ["B"]
+}, {
+  "question": "Business accounting is seperated in different fields. What is not a part of the financial accounting?",
+  "options": [
+    "A Bookkeeping",
+    "B Financial planning",
+    "C Inventory",
+    "D Financial statements"
+  ],
+  "solution": ["B"]
+}, {
+  "question": "The generally accepted Accounting rules need to be taken into consideration for preparing the financial statements. What is not a part of the framework principles of the generally accepted Accounting rules?",
+  "options": [
+    "A Trancparancy and Understandability",
+    "B Completeness",
+    "C Prudence",
+    "D Accuracy and Neutrality"
+  ],
+  "solution": ["C"]
+}, {
+  "question": "The generally accepted Accounting rules need to be taken into consideration for preparing the financial statements. What is not a part of the accrual principles of the generally accepted Accounting rules?",
+  "options": [
+    "A Realization principle",
+    "B Accruals principle",
+    "C Completeness",
+    "D Imparity principle"
+  ],
+  "solution": ["C"]
+}, {
+  "question": "In which case is a cash-outflow an expenditure at the same time?",
+  "options": [
+    "A Purchase of goods on credit",
+    "B Purchase of goods in cash",
+    "C Payment of goods sold in a prior period",
+    "D Delivery of goods that have been paid within a prior period"
+  ],
+  "solution": ["B"]
 }]
