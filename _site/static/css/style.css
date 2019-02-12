@@ -1,4 +1,9 @@
 .question, .option {
     font-family: monospace; 
     color: gray;
+    max-width: 97%;
+    word-break: break-word;
+}
+.options_container {
+    display: block;
 }
