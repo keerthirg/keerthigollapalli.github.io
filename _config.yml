@@ -12,6 +12,8 @@ urls:
     url: /blog/
   - text: Projects
     url: /projects/
+  - text: TUM Mock Tests
+    url: /test/
 
 social:
   - icon: fab fa-linkedin
