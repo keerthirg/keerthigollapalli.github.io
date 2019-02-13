@@ -23,9 +23,41 @@
 
   </head>
   <body>
-
-  <div class="container">
+    <div class="header-fixed">
+      <a href="/">
+        {{ site.author }}
+      </a>
+      <div class="filler">
+        <div id="test-progress">
+          
+        </div>
+      </div>
+      <a href="/">
+        <img src="{{ site.avatar_url }}" height="24px" width="24px" />
+      </a>
+      <div class="social-top-bar">
+        <ul>
+          {% for link in site.social %}
+            <li><a href="{{ link.link }}" target="_blank"><i class="{{ link.icon }}"></i></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div  class="social-top-bar-navi">
+        <ul>
+          {% for loop in site.urls %}
+            <li><a class="about" href="{{ loop.url }}">{{ loop.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="container">
       {{ content }}
-  </div>
+    </div>
+    <footer style="text-align: center;">
+      &copy; {{ site.author }}
+      {% if site.github %}
+        - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll.
+      {% endif %}
+    </footer>
   </body>
 </html>
