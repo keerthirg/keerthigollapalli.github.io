@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="gsahadevan">
+
+  <title>{{ site.title }}</title>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <link href="/static/css/scrolling-nav-top.css" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/main.css">
+  <!-- added for test.html -->
+  <link rel="stylesheet" href="/static/css/style.css">
+  <!-- Custom styles for this template -->
+  <link href="/static/css/resume.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">{{ site.data.resume.name }}</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-square mx-auto mb-2" src="/static/images/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        {% for header in site.data.profile.resumeheaders %}
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger specific-font" href="#{{ header.link }}">{{ header.text }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">{{ site.author }}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          {% for link in site.urls %}
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">{{ site.data.profile.fname }}
+          <span class="text-primary">{{ site.data.profile.lname }}</span>
+        </h1>
+        <div class="subheading mb-5">{{ site.data.resume.address }} · {{ site.data.resume.mobile }} ·
+          <a href="mailto:{{ site.data.resume.email }}">{{ site.data.resume.email }}</a>
+        </div>
+        <p class="lead mb-5 justified specific-font">{{ site.data.resume.aboutme }}</p>
+        <div class="social-icons">
+          {% for link in site.data.resume.social %}
+            <a href="{{ link.link }}" target="_blank" title="{{ link.text }}"><i class="{{ link.icon }}"></i></a>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+        {% for exp in site.data.resume.experience %}
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h4 class="mb-0">{{ exp.role }}</h4>
+              <div class="subheading mb-3">{{ exp.org }}</div>
+              <p class="justified specific-font">{{ exp.desc }}</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary specific-font">{{ exp.duration }}</span>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+        {% for skill in site.data.resume.skills %}
+          <h4 class="mb-0">{{ skill.text }}</h4>
+          <div class="subheading mb-3">{{ skill.contents }}</div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="technicalproficiency">
+      <div class="w-100">
+        <h2 class="mb-5">Technical Proficiency</h2>
+        <ul class="fa-ul mb-0">
+          {% for tech in site.data.resume.technicalproficiency %}
+            <li><i class="fa-li fa fa-check"></i>
+              <h4 class="mb-0">{{ tech.text }}</h4>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <ul class="fa-ul mb-0">
+          {% for award in site.data.resume.awards %}
+            <li><i class="fa-li fa fa-trophy text-warning"></i>
+              <h4 class="mb-0">{{ award.text }} 
+                <span class="text-primary">{{ award.contents }}</span>
+              </h4>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+        {% for edu in site.data.resume.education %}
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h4 class="mb-0">{{ edu.univ }}</h4>
+              <div class="subheading mb-3">{{ edu.course }}</div>
+              <p class="specific-font">Grade: {{ edu.cgpa }}</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary specific-font">{{ edu.duration }}</span>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+  </div>
+  <!-- Custom JavaScript for this theme -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js" integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Custom scripts for this template -->
+  <script src="/static/js/resume.js"></script>
+</body>
+</html>

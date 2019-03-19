@@ -70,11 +70,14 @@ span.total {
 }
 span.attempted {
     left-padding: 5px;
-    color: darkslategray;
+    color: yellow;
     font-weight: bold;
 }
 span.success {
     left-padding: 1px;
-    color: teal;
+    color: deeppink;
     font-weight: bold;
+}
+.social-icons a {
+  color: #00564D !important;
 }

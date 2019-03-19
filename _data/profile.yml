@@ -8,3 +8,23 @@ stackoverflow: https://stackoverflow.com/users/6407851/gauthaman-sahadevan
 hackerrank: https://www.hackerrank.com/gsahadevan
 hackerearth: https://www.hackerearth.com/@gsahadevan
 medium: https://medium.com/@gsahadevan
+
+place: Markt Schwaben
+city: 85570 Munich
+country: Germany
+skype: gsahadevan
+email: gsahadevan@outlook.com
+
+resumeheaders:
+  - text: About
+    link: about
+  - text: Experience
+    link: experience
+  - text: Skills
+    link: skills
+  - text: Technical Proficiency
+    link: technicalproficiency
+  - text: Awards
+    link: awards
+  - text: Education
+    link: education

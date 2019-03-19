@@ -1,0 +1,44 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 20px 0;
+}
+
+.bg-primary {
+  background-color: #00897B !important;
+}
+
+.text-primary {
+  color: #00897B !important;
+}
+
+a {
+  color: #00897B;
+}
+
+a:hover, a:focus, a:active {
+  color: #00564D;
+}
+
+.rounded-square {
+  border-radius: 25px;
+}
+
+.justified {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h2 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #00564D;
+}

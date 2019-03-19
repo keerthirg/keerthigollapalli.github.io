@@ -96,9 +96,9 @@ function loadFile() {
                 }
                 $('#test-progress').empty();
                 var html_progress = '';
-                html_progress += '<span class="total">Total Questions : ' + total + ' </span>';
-                html_progress += '<span class="attempted">Attempted : ' + attempt + ' </span>';
-                html_progress += '<span class="success">Correct : ' + success + ' </span>';
+                html_progress += '<span class="total">' + total + ' </span>';
+                html_progress += '<span class="attempted">' + attempt + ' </span>';
+                html_progress += '<span class="success">' + success + ' </span>';
                 $('#test-progress').append(html_progress);
             });
         });

@@ -6,15 +6,13 @@ github: https://gsahadevan.github.io/
 urls:
   - text: Home
     url: /
-  - text: About Me
-    url: /about/
   - text: Blog
     url: /blog/
-  - text: Projects
-    url: /projects/
   - text: TUM Mock Tests
     url: /test/
-
+  - text: Resume
+    url: /resume/
+  
 social:
   - icon: fab fa-linkedin
     link: "https://www.linkedin.com/in/gauthamansahadevan/"
@@ -29,3 +27,10 @@ social:
 
 plugins:
   - jekyll-paginate
+
+sass:
+  sass_dir: assets/css
+  style: :compressed
+
+exclude:
+  - bower_components

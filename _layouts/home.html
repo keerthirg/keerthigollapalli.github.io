@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<!-- Header -->
+<header class="bg-primary py-5 mb-5">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-12">
+        <h1 class="display-4 text-white mt-5 mb-2">Hi There, Welcome to my Home Page!!!</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 mb-5">
+      <h2>About Me</h2>
+      <hr>
+      <p class="justified">My name is Gauthaman Sahadevan. I am a Senior Java Developer. I hold a Master’s Degree in Computer Application from PSG College of Technology, Coimbatore - India. I have a total of nine years of experience in developing applications using Java and its associated technologies. Have played multiple roles – as a Technology Consultant for Fortune #1 company, as a SME in the Cards and Payments domain for a Netherlands based Banking Group and so on.</p>
+      <p class="justified">Apart from my work, I prefer to read and review technical blogs, answer questions on Stack Overflow and work on projects involving Data Visualization. I enjoy creating mock up projects by reverse engineering. I also like to research and implement latest features released as part of the technology stack of my interest and develop personal pet projects. </p>
+    </div>
+    <div class="col-md-4 mb-5">
+      <h2>Contact Me</h2>
+      <hr>
+      <address>
+        <strong>{{ site.data.profile.name }}</strong>
+        <br>{{ site.data.profile.place }}
+        <br>{{ site.data.profile.city }} {{ site.data.profile.country }}
+        <br>
+      </address>
+      <address>
+        <abbr title="Skype">Skype:</abbr>
+        {{ site.data.profile.skype }}
+        <br>
+        <abbr title="Email">Email:</abbr>
+        <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
+      </address>
+      <hr>
+      <div class="social-icons">
+          {% for link in site.data.resume.social %}
+            <a href="{{ link.link }}" target="_blank" title="{{ link.text }}"><i class="{{ link.icon }}"></i></a>
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+</div>
+<!-- /.container -->
