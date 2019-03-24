@@ -33,7 +33,7 @@ function loadFile() {
             q_obj[ctr] = obj.solution[0];
 
             htmlText += '<br>';
-            htmlText += '<fieldset class="f_container"><div class="d_' + ctr + '">';
+            htmlText += '<fieldset><div class="d_' + ctr + '">';
             htmlText += '<legend> Question ' + ctr + ' of ' + jsonObj.length + ' </legend>';
             htmlText += '<p class="question">' + obj.question + '</p>';
             var loopVar = 0;

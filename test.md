@@ -4,6 +4,7 @@ title: Mock Test
 permalink: /test/
 ---
 
+<div class="col-lg-12">
 <form id="jsonFile" name="jsonFile" enctype="multipart/form-data" method="post">
         <div id="selector">
             <div id="toggles">
@@ -31,3 +32,4 @@ permalink: /test/
         <div id="dynamiccontent"></div>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>    
 <script type="text/javascript" src="/static/js/main.js"></script>
+</div>
