@@ -67,6 +67,7 @@ function loadFile() {
         // $('body').append(htmlText);
         $('#dynamiccontent').append(htmlText);
         $(document).ready(function() {
+            var attempt = 0;
             $('input[type=radio]').on('change', function(event) {
                 var test = event.target.id.split("_", 2);
                 $(".div_" + test[0]).css("border", "0px");
@@ -85,7 +86,8 @@ function loadFile() {
                 // console.log(value);
                 // console.log(q_obj);
                 // console.log(s_obj);
-                var attempt = s_obj.length - 1;
+                // var attempt = s_obj.length - 1;
+                attempt++;
                 var total = q_obj.length - 1;
                 var success = 0;
                 for (var key in s_obj) {
