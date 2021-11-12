@@ -1,18 +1,24 @@
 {
-  "name": "gsahadevan-blog",
+  "name": "gsahadevan.github.io",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "static": "next build && next export && touch ./out/.nojekyll ",
+    "deploy": "git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages",
+    "partial": "next build && next export && touch ./out/.nojekyll && git add out/"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.5",
     "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.4.0",
     "babel-plugin-import-glob-array": "^0.2.0",
     "next": "12.0.2",
     "next-themes": "0.0.15",
+    "postcss": "^8.3.11",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "rehype-autolink-headings": "^6.1.0",

@@ -27,6 +27,32 @@ function Home() {
                     <li>Tailwind CSS</li>
                     <li>Next.js</li>
                 </ul>
+
+                <h2 className="my-6 text-2xl font-extrabold text-gray-700 dark:text-gray-300">Projects - Frontend</h2>
+                <div className="max-w-sm rounded overflow-hidden shadow-lg dark:text-indigo-100 dark:bg-gray-900 cursor-pointer">
+                    <img className="w-full p-4" src="images/projects_green_plug.png" alt="Green Plug" />
+                    <div className="px-6 py-4">
+                        <div className="font-bold text-xl mb-2 text-gray-700 dark:text-gray-300">
+                            Angular + Bootstrap 5 Admin Template
+                        </div>
+                        <p className="text-gray-700 dark:text-gray-500 text-base">
+                            Modern, Flexible and Responsive Bootstrap 5 Admin Template A professional package that comes
+                            with hunderds of UI components, forms, tables, charts, dashboards, pages and svg icons. Each
+                            one is fully customizable, responsive and easy to use.
+                        </p>
+                    </div>
+                    <div className="px-6 pt-4 pb-2">
+                        <span className="inline-block bg-gray-200 dark:bg-gray-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-300 mr-2 mb-2">
+                            #angular12
+                        </span>
+                        <span className="inline-block bg-gray-200 dark:bg-gray-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-300 mr-2 mb-2">
+                            #bootstrap5
+                        </span>
+                        <span className="inline-block bg-gray-200 dark:bg-gray-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-300 mr-2 mb-2">
+                            #chart.js
+                        </span>
+                    </div>
+                </div>
             </main>
         </>
     );

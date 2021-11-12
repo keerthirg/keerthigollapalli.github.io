@@ -1,7 +1,7 @@
 module.exports = {
-    mode: 'jit',
+    // mode: 'jit',
     darkMode: 'class',
-    purge: ['./pages/**/*.{js,mdx}', './components/**/*.js'],
+    purge: ['./pages/**/*.js'],
     theme: {
         typography: (theme) => ({}),
         extend: {}

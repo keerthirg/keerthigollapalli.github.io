@@ -1,4 +1,4 @@
-import Nav from '@/layouts/Nav';
+import Nav from '@/pages/layouts/Nav';
 
 function Post(posts) {
     return ({children: content}) => {

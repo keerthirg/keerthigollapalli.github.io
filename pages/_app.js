@@ -1,7 +1,6 @@
-import Nav from '@/layouts/nav';
 import {ThemeProvider} from 'next-themes';
+import Nav from '../pages/layouts/Nav';
 import '../styles/globals.css';
-import '../styles/tailwind.css';
 
 function MyApp({Component, pageProps}) {
     return (

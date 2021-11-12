@@ -12,14 +12,15 @@ function Nav() {
     }, []);
 
     const renderThemeChanger = () => {
-        if (!mounted) {
-            return null;
-        }
+        // if (!mounted) {
+        //     return null;
+        // }
 
         const currentTheme = theme === 'system' ? systemTheme : theme;
 
-        console.log(currentTheme);
+        // console.log(currentTheme);
 
+        // const currentTheme = theme ? theme : 'light';
         if (currentTheme === 'dark') {
             return <SunIcon className="w-5 h-6" role="button" onClick={() => setTheme('light')} />;
         } else {
