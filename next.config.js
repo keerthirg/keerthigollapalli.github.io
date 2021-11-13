@@ -1,8 +1,10 @@
 const isProd = process.env.NODE_ENV === 'production';
 module.exports = {
-    exportPathMap: function () {
+    exportPathMap: async function (defaultPathMap, {dev, dir, outDir, distDir, buildId}) {
         return {
-            '/': {page: '/'}
+            '/': {page: '/'},
+            '/blog': {page: '/blog'},
+            '/hire-me': {page: '/hire-me'}
         };
     },
     assetPrefix: isProd ? '/' : ''

@@ -1,11 +1,8 @@
 module.exports = {
     // mode: 'jit',
     darkMode: 'class',
-    purge: ['./pages/**/*.js'],
-    theme: {
-        typography: (theme) => ({}),
-        extend: {}
-    },
+    purge: ['./pages/**/*.{js,mdx}'],
+    theme: {},
     variants: {},
     plugins: [require('@tailwindcss/typography')]
 };

@@ -18,9 +18,6 @@ function Nav() {
 
         const currentTheme = theme === 'system' ? systemTheme : theme;
 
-        // console.log(currentTheme);
-
-        // const currentTheme = theme ? theme : 'light';
         if (currentTheme === 'dark') {
             return <SunIcon className="w-5 h-6" role="button" onClick={() => setTheme('light')} />;
         } else {
@@ -46,7 +43,7 @@ function Nav() {
                             <a>Gauthaman Sahadevan</a>
                         </Link>
 
-                        <ul className="hidden sm:flex justify-end space-x-12">
+                        <ul className="hidden md:flex justify-end space-x-12">
                             <li>
                                 <Link href="/">
                                     <a>Home</a>
@@ -65,7 +62,7 @@ function Nav() {
                             </li>
                         </ul>
 
-                        <div className="sm:hidden flex items-center">
+                        <div className="md:hidden flex items-center">
                             <div className="px-6">{renderThemeChanger()}</div>
                             <button onClick={toggleMobileMenu}>
                                 <MenuIcon className="w-6 h-6" />
@@ -76,7 +73,7 @@ function Nav() {
             </nav>
             <div
                 id="mobile-menu"
-                className="hidden sm:hidden flex flex-col absolute w-full px-8 bg-gray-100 dark:bg-gray-600"
+                className="hidden md:hidden flex flex-col absolute w-full px-8 bg-gray-100 dark:bg-gray-600"
             >
                 <Link href="/">
                     <a className="py-2 px-4 text-sm" onClick={hideMobileMenu}>
