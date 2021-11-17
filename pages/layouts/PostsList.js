@@ -1,9 +1,10 @@
 import Link from 'next/link';
+import Tag from '../components/Tag';
 import formatDate from '../utils/format';
 
 function PostsList({posts}) {
     if (!posts) {
-        return (<> </>);
+        return <> </>;
     }
 
     const sortedPosts = posts.sort((a, b) => {
@@ -30,12 +31,9 @@ function PostsList({posts}) {
                                 </p>
                                 <div className="inline-block space-x-2 text-gray-700 dark:text-gray-500">
                                     {post.data.tags.map((tag) => (
-                                        <span
-                                            key={tag}
-                                            className="inline-block bg-gray-200 dark:bg-gray-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-300"
-                                        >
+                                        <Tag key={tag}>
                                             <a>#{tag}</a>
-                                        </span>
+                                        </Tag>
                                     ))}
                                 </div>
                             </div>
